@@ -1,2 +1,4 @@
 # SOMETHING_IS_WRONG
-Franz y sus amigos
+Franz Dennis Villarroel Jattaco 
+Jhamil Beymar Flores Choque
+Jhery Rodriguez Aguilar
