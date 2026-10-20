@@ -1,0 +1,28 @@
+{
+    "name": "SomethingIsWrong.Editor",
+    "rootNamespace": "SomethingIsWrong.EditorTools",
+    "references": [
+        "SomethingIsWrong.Runtime",
+        "Unity.ProBuilder",
+        "Unity.Postprocessing.Runtime",
+        "Unity.Postprocessing.Editor",
+        "Unity.ProBuilder.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.postprocessing",
+            "expression": "3.0.0",
+            "define": "SIW_POSTFX"
+        }
+    ],
+    "noEngineReferences": false
+}
