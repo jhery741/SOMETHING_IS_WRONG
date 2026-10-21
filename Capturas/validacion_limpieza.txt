@@ -1,0 +1,3 @@
+Escena: Casa  ✔ sin errores (detalle en la Console).
+Errores: 0   Avisos: 3   Scripts perdidos: 0
+Habitaciones: 7 · Puertas: 8 · Escondites: 1 · Anomalías válidas: 15/15
