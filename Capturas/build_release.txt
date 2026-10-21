@@ -1,0 +1,7 @@
+18/10/2026 10:09:34 p. m.
+Resultado: Succeeded
+Ruta: C:\Users\franz\Downloads\ANOMALY_DESCENT_Piso3_Unity6000.5.5f1\AnomalyDescent\Builds\Windows_Release\AnomalyDescent.exe
+Errores: 0
+Avisos: 1
+Tiempo: 00:00:20.5165442
+Escenas: Assets/AnomalyDescent/Scenes/Menu.unity, Assets/AnomalyDescent/Scenes/Casa.unity

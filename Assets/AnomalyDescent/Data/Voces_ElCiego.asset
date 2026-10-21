@@ -1,0 +1,478 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc9effd3d6221f479d140a54f1c46be, type: 3}
+  m_Name: Voces_ElCiego
+  m_EditorClassIdentifier: SomethingIsWrong.Runtime::SomethingIsWrong.VoiceLineSet
+  speakerName: El Ciego
+  lines:
+  - id: saludo_01
+    context: 1
+    text: "\xBFHola? \xBFHay alguien en casa?"
+    clip: {fileID: 0}
+    minStage: 0
+    maxStage: 1
+    roomId: 
+    check: 0
+    options: []
+  - id: amb_01
+    context: 0
+    text: "Esta casa era m\xE1s grande antes."
+    clip: {fileID: 0}
+    minStage: 0
+    maxStage: 2
+    roomId: 
+    check: 0
+    options: []
+  - id: amb_02
+    context: 0
+    text: Shhh. Escucha.
+    clip: {fileID: 0}
+    minStage: 0
+    maxStage: 3
+    roomId: 
+    check: 0
+    options: []
+  - id: amb_03
+    context: 0
+    text: Me gusta cuando vienes.
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 3
+    roomId: 
+    check: 0
+    options: []
+  - id: amb_04
+    context: 0
+    text: Las cosas no se mueven solas. Casi nunca.
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 3
+    roomId: 
+    check: 0
+    options: []
+  - id: amb_05
+    context: 0
+    text: "Cuento las puertas. Siempre me sale una de m\xE1s."
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 3
+    roomId: 
+    check: 0
+    options: []
+  - id: amb_alerta_01
+    context: 0
+    text: Te estoy oyendo respirar.
+    clip: {fileID: 0}
+    minStage: 2
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: amb_alerta_02
+    context: 0
+    text: "Cada vez est\xE1s m\xE1s cerca. O yo."
+    clip: {fileID: 0}
+    minStage: 2
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: amb_alerta_03
+    context: 0
+    text: No me hagas ir a buscarte.
+    clip: {fileID: 0}
+    minStage: 2
+    maxStage: 3
+    roomId: 
+    check: 0
+    options: []
+  - id: foto_01
+    context: 2
+    text: "Clic. \xBFHe salido bien?"
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: foto_02
+    context: 2
+    text: Esa luz me molesta.
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: rep_ok_01
+    context: 3
+    text: "Eso no estaba as\xED, \xBFverdad?"
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: rep_ok_02
+    context: 3
+    text: "Bien visto. Lo devolver\xE9 a su sitio... por ahora."
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: rep_mal_01
+    context: 4
+    text: "Te has equivocado. Lo he o\xEDdo."
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: rep_mal_02
+    context: 4
+    text: "Eso siempre estuvo ah\xED."
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: puerta_01
+    context: 5
+    text: "\xBFQui\xE9n ha abierto esa puerta?"
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: puerta_02
+    context: 5
+    text: No des portazos en mi casa.
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: correr_01
+    context: 6
+    text: No corras por la casa.
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: correr_02
+    context: 6
+    text: Corres como los otros.
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: esconder_01
+    context: 7
+    text: "\xBFAl escondite? Yo tambi\xE9n sab\xEDa jugar."
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: refugio_01
+    context: 8
+    text: "Ah\xED no puedo entrar. Pero puedo esperar."
+    clip: {fileID: 0}
+    minStage: 2
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: quieto_01
+    context: 9
+    text: "\xBFSigues ah\xED?"
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: vuelta_01
+    context: 10
+    text: Otra vuelta. Me gusta este juego.
+    clip: {fileID: 0}
+    minStage: 0
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: vuelta_02
+    context: 10
+    text: Lo he dejado todo como estaba. Casi.
+    clip: {fileID: 0}
+    minStage: 0
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: hab_dormitorio
+    context: 11
+    text: "Est\xE1s en el dormitorio."
+    clip: {fileID: 0}
+    minStage: 2
+    maxStage: 4
+    roomId: dormitorio
+    check: 0
+    options: []
+  - id: hab_pasillo
+    context: 11
+    text: "Est\xE1s en el pasillo."
+    clip: {fileID: 0}
+    minStage: 2
+    maxStage: 4
+    roomId: pasillo
+    check: 0
+    options: []
+  - id: hab_sala
+    context: 11
+    text: "Est\xE1s en la sala."
+    clip: {fileID: 0}
+    minStage: 2
+    maxStage: 4
+    roomId: sala
+    check: 0
+    options: []
+  - id: hab_cocina
+    context: 11
+    text: "Est\xE1s en la cocina."
+    clip: {fileID: 0}
+    minStage: 2
+    maxStage: 4
+    roomId: cocina
+    check: 0
+    options: []
+  - id: hab_bano
+    context: 11
+    text: "Est\xE1s en el ba\xF1o."
+    clip: {fileID: 0}
+    minStage: 2
+    maxStage: 4
+    roomId: bano
+    check: 0
+    options: []
+  - id: hab_recibidor
+    context: 11
+    text: "Est\xE1s en el recibidor."
+    clip: {fileID: 0}
+    minStage: 2
+    maxStage: 4
+    roomId: recibidor
+    check: 0
+    options: []
+  - id: preg_donde
+    context: 12
+    text: "\xBFD\xF3nde est\xE1s?"
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 4
+    roomId: 
+    check: 1
+    options:
+    - label: "\xABEn {habitacion}.\xBB"
+      kind: 0
+      attention: -0.5
+      attentionIfLie: 1
+    - label: "\xABLejos de ti.\xBB"
+      kind: 1
+      attention: 0.5
+      attentionIfLie: 1
+    - label: (callar)
+      kind: 2
+      attention: 0.25
+      attentionIfLie: 1
+  - id: preg_visto
+    context: 12
+    text: "\xBFHas visto algo raro?"
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 4
+    roomId: 
+    check: 2
+    options:
+    - label: "\xABS\xED.\xBB"
+      kind: 3
+      attention: -0.5
+      attentionIfLie: 1
+    - label: "\xABNo.\xBB"
+      kind: 4
+      attention: -0.5
+      attentionIfLie: 1
+    - label: (callar)
+      kind: 2
+      attention: 0.25
+      attentionIfLie: 1
+  - id: preg_jugar
+    context: 12
+    text: "\xBFJugamos a algo?"
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 3
+    roomId: 
+    check: 3
+    options:
+    - label: "\xABVale.\xBB"
+      kind: 3
+      attention: -0.5
+      attentionIfLie: 1
+    - label: "\xABNo.\xBB"
+      kind: 4
+      attention: 0.5
+      attentionIfLie: 1
+    - label: (callar)
+      kind: 2
+      attention: 0.25
+      attentionIfLie: 1
+  - id: preg_miedo
+    context: 12
+    text: "\xBFTienes miedo?"
+    clip: {fileID: 0}
+    minStage: 1
+    maxStage: 4
+    roomId: 
+    check: 0
+    options:
+    - label: "\xABS\xED.\xBB"
+      kind: 3
+      attention: -0.5
+      attentionIfLie: 1
+    - label: "\xABNo.\xBB"
+      kind: 4
+      attention: 0.5
+      attentionIfLie: 1
+    - label: (callar)
+      kind: 2
+      attention: 0.25
+      attentionIfLie: 1
+  - id: resp_verdad
+    context: 13
+    text: "Lo s\xE9."
+    clip: {fileID: 0}
+    minStage: 0
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: resp_mentira
+    context: 14
+    text: Mientes.
+    clip: {fileID: 0}
+    minStage: 0
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: resp_silencio
+    context: 15
+    text: "\xBFNo me contestas?"
+    clip: {fileID: 0}
+    minStage: 0
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: juego_01
+    context: 16
+    text: "Tres golpes. Encu\xE9ntrame."
+    clip: {fileID: 0}
+    minStage: 0
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: apar_01
+    context: 17
+    text: Te oigo. Te oigo muy cerca.
+    clip: {fileID: 0}
+    minStage: 3
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: apar_02
+    context: 17
+    text: No te muevas.
+    clip: {fileID: 0}
+    minStage: 3
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: pers_01
+    context: 18
+    text: "\xA1Ah\xED est\xE1s!"
+    clip: {fileID: 0}
+    minStage: 0
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: pers_02
+    context: 18
+    text: "\xA1No corras!"
+    clip: {fileID: 0}
+    minStage: 0
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: perd_01
+    context: 19
+    text: "\xBFD\xF3nde te has metido?"
+    clip: {fileID: 0}
+    minStage: 0
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: perd_02
+    context: 19
+    text: "Volver\xE1s a hacer ruido."
+    clip: {fileID: 0}
+    minStage: 0
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: ret_01
+    context: 20
+    text: Luego. Luego jugamos.
+    clip: {fileID: 0}
+    minStage: 0
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
+  - id: fin_01
+    context: 21
+    text: "\xBFTe vas? Nadie se va."
+    clip: {fileID: 0}
+    minStage: 0
+    maxStage: 4
+    roomId: 
+    check: 0
+    options: []
